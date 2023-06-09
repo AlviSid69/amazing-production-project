@@ -9,4 +9,4 @@ export function classNames(cls: string, mods?: Mods, additional?: string[]): str
       .filter(([className, value]) => Boolean(value))
       .map(([className]) => className)
   ].join(' ');
-};
+}
